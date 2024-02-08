@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body{
+  background-color: rgb(233, 233, 233);
+}
+
+.main-container {
+  display: flex;
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 550;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo-container{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 0.25rem 0.7rem 0.25rem 0.7rem;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.todo-footer{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.todo-footer input{
+  width: 27px;
+  height: 30px;
+}
+
+.todo-footer button{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.form-container{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form-container input{
+  padding: 0.55rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.form-container button{
+  color: white;
+  border: none;
+  background-color: rgb(0,117,255);
+  border-radius: 5px;
+}
+
+.completed-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo-completed-container{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 0.25rem 0.7rem 0.25rem 0.7rem;
+  border-radius: 10px;
+  text-decoration: line-through;
+  background-color: rgb(199, 199, 199);
+
+}
